@@ -1,0 +1,16 @@
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.deps.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.runtimeconfig.dev.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.dll
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.pdb
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\appsettings.Development.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\appsettings.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\Properties\launchSettings.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\TodoApi.deps.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\TodoApi.runtimeconfig.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\TodoApi.runtimeconfig.dev.json
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\TodoApi.dll
+D:\Projects_Practices\Web\.NET\.NET Core\TodoApi\TodoApi\bin\Debug\netcoreapp2.1\TodoApi.xml\netcoreapp2.1\TodoApi.pdb

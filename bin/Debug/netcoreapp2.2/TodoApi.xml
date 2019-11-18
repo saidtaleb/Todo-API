@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.TodosController.Get">
+            <summary>
+            get list of TODO
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodosController.Get(System.String)">
+            <summary>
+            get todo by id
+            </summary>
+            <param name="id">the id TODO</param>
+            <returns>a instance TODO</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodosController.Create(TodoApi.Models.TodoModel.TodoCreateModel)">
+            <summary>
+            create TODO
+            </summary>
+            <param name="todo">TODO create model</param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodosController.Update(System.String,TodoApi.Models.TodoModel.TodoUpdateModel)">
+            <summary>
+            update TODO
+            </summary>
+            <param name="id">the id of TODO</param>
+            <param name="todoIn">the TODO update model</param>
+            <returns>a instance TODO</returns>
+        </member>
+        <member name="M:TodoApi.Controllers.TodosController.Delete(System.String)">
+            <summary>
+            delete todo by id
+            </summary>
+            <param name="id">the id TODO</param>
+            <returns>a instance TODO</returns>
+        </member>
+        <member name="T:TodoApi.Entities.Todo">
+            <summary>
+            a class describe TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Entities.Todo.Id">
+            <summary>
+            the id of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Entities.Todo.Title">
+            <summary>
+            the title of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Entities.Todo.Description">
+            <summary>
+            the description of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Entities.Todo.Date">
+            <summary>
+            the date of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Entities.Todo.ImportanceLevel">
+            <summary>
+            the importance of TODO
+            </summary>
+        </member>
+        <member name="T:TodoApi.Enums.ImportanceLevel">
+            <summary>
+            a ENUM describe level of importance of TODO
+            </summary>
+        </member>
+        <member name="M:TodoApi.Extensions.Extensions.AddCorsServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            add CORS to service container
+            </summary>
+            <param name="services">the service container</param>
+        </member>
+        <member name="M:TodoApi.Extensions.Extensions.ConfigureSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            configure Swagger for API Documentation
+            </summary>
+            <param name="services">the DI service Collection</param>
+        </member>
+        <member name="M:TodoApi.Extensions.Extensions.ConfigFluentValidation(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            configuration fluent validation
+            </summary>
+            <param name="mvcBuilder"></param>
+        </member>
+        <member name="M:TodoApi.Extensions.Extensions.ConfigureJsonResponse(Microsoft.Extensions.DependencyInjection.IMvcBuilder)">
+            <summary>
+            configuration of JSON response
+            </summary>
+            <param name="mvcBuilder"></param>
+        </member>
+        <member name="M:TodoApi.Extensions.Extensions.UseCorsPipeline(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:TodoApi.Models.TodoModel.TodoCreateModel">
+            <summary>
+            a class describe create model
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoCreateModel.Title">
+            <summary>
+            the title of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoCreateModel.Description">
+            <summary>
+            the description of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoCreateModel.Date">
+            <summary>
+            the date of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoCreateModel.ImportanceLevel">
+            <summary>
+            the importance of TODO
+            </summary>
+        </member>
+        <member name="T:TodoApi.Models.TodoModel.TodoModel">
+            <summary>
+            a class describe TODO model
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoModel.Id">
+            <summary>
+            the id of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoModel.Title">
+            <summary>
+            the title of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoModel.Description">
+            <summary>
+            the description of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoModel.Date">
+            <summary>
+            the date of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoModel.ImportanceLevel">
+            <summary>
+            the importance of TODO
+            </summary>
+        </member>
+        <member name="T:TodoApi.Models.TodoModel.TodoUpdateModel">
+            <summary>
+            a class describe create model
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoUpdateModel.Title">
+            <summary>
+            the title of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoUpdateModel.Description">
+            <summary>
+            the description of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoUpdateModel.Date">
+            <summary>
+            the date of TODO
+            </summary>
+        </member>
+        <member name="P:TodoApi.Models.TodoModel.TodoUpdateModel.ImportanceLevel">
+            <summary>
+            the importance of TODO
+            </summary>
+        </member>
+        <member name="T:TodoApi.Services.Todo.ITodoService">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:TodoApi.Services.Todo.TodoService.Get">
+            <summary>
+            get list of TODOs
+            </summary>
+            <returns>a list of TODOs</returns>
+        </member>
+        <member name="M:TodoApi.Services.Todo.TodoService.Create(TodoApi.Models.TodoModel.TodoCreateModel)">
+            <summary>
+            create TODO
+            </summary>
+            <param name="todo"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Services.Todo.TodoService.Update(System.String,TodoApi.Models.TodoModel.TodoUpdateModel)">
+            <summary>
+            update TODO
+            </summary>
+            <param name="id"></param>
+            <param name="todoIn"></param>
+        </member>
+        <member name="M:TodoApi.Services.Todo.TodoService.Remove(System.String)">
+            <summary>
+            remove TODO
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TodoApi.Services.Todo.TodoService.IsUniqueTitle(System.String)">
+            <summary>
+            check is title unique
+            </summary>
+            <param name="title">the title we want to check</param>
+            <returns>a boolean</returns>
+        </member>
+    </members>
+</doc>
